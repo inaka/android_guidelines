@@ -13,6 +13,7 @@ In our projects we use Android Lint with an extension called [Lewis](https://git
 * Every instance variable must be named beginning with 'm' and using camelCase (Exceptions: model classes, dependecies injection).
 * Every class constant (static and final) must be named using UPPER_SNAKE_CASE.
 
+
 ## Other rules and recommendations
 
 #### .gitignore file format
@@ -27,30 +28,39 @@ Minimum of things that must not be uploaded for each Android project:
 ```
  In addition, be careful uploading `.iml` files, most of the time those files are not necessary.
 
+
 #### Code format and unused imports
 Always keep a correct code format (indentation, spaces, etc) and avoid unused imports using Android Studio's shortcut `Command+Option+L` (in Mac).
+
 
 #### File's header
 Delete default header, avoid use headers to indicate only the creator of the file and the date. Add a header only if you want to explain the `purpose` of that file/class.
 
+
 #### Documentation
 Use always `JavaDoc` and avoid warnings.
 
+
 #### Naming convention for widgets
 Widgets id: contextName + name + widgetType (all camel case). For example: "loginNameTextView".
+
 
 #### Persistent data locally
 Put every SharedPreference inside the same unique file. Or, at least put those different files inside the same package (could be named “preferences” for example).
 The same for DB (SQLite, Realm, etc), the package could be named “db” for example.
 
+
 #### Use build flavors
 Use build flavors to work with more than one environment (for example: dev, staging, production).
 
+
 #### Observers
-Use observers when is strongly necessary and avoid their concatenation.
+Use observers only when is strongly necessary and avoid their concatenation.
+
 
 #### Testing
 Use always `JUnit`, try to test most of algorithmic stuff and be careful testing UI behaviour.
+
 
 #### Libraries development
 * No launcher activities.
