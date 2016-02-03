@@ -34,7 +34,7 @@ Always keep a correct code format (indentation, spaces, etc) and avoid unused im
 Delete default header, avoid use headers to indicate only the creator of the file and the date. Add a header only if you want to explain the `purpose` of that file/class.
 
 #### Documentation
-Use always JavaDoc and avoid warnings.
+Use always `JavaDoc` and avoid warnings.
 
 #### Naming convention for widgets
 Widgets id: contextName + name + widgetType (all camel case). For example: "loginNameTextView".
@@ -50,7 +50,7 @@ Use build flavors to work with more than one environment (for example: dev, stag
 Use observers when is strongly necessary and avoid their concatenation.
 
 #### Testing
-Use always JUnit, try to test most of algorithmic stuff and be careful testing UI behaviour.
+Use always `JUnit`, try to test most of algorithmic stuff and be careful testing UI behaviour.
 
 #### Libraries development
 * No launcher activities.
@@ -58,9 +58,9 @@ Use always JUnit, try to test most of algorithmic stuff and be careful testing U
 * No permissions inside AndroidManifest.xml.
 * Tests and examples with clear code and documentation.
 * A project using it (could be inside the same repo or not but in a different module).
-* Use JitPack.io to allow include it via gradle.
+* Use `JitPack.io` to allow include it via gradle.
 [How to use JitPack.io](https://jitpack.io/docs/ANDROID/)
 
-`Examples of libraries using JitPack.io: [TinyTask](https://github.com/inaka/TinyTask), [KillerTask](https://github.com/inaka/KillerTask).`
+Examples: [TinyTask](https://github.com/inaka/TinyTask), [KillerTask](https://github.com/inaka/KillerTask).
 
 
