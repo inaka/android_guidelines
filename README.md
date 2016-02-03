@@ -3,7 +3,7 @@
 ## Code Conventions
 Android projects are Java projects, so they must follow the well-known code conventions for the Java programming languages. These are easily available online so look for them and apply them to the projects.
 
-In our projects we use Android Lint with an extension called [Lewis](https://github.com/inaka/lewis) to check our code, Lewis adds rules like:
+In our projects we use Android Lint with an extension called [Lewis](https://github.com/inaka/lewis) to check our code, there we add some rules like:
 * Every .java file must be inside a custom package, not inside the root package.
 * Every application must have at least one launcher activity.
 * Every application must have only one launcher activity.
