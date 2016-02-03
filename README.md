@@ -3,7 +3,7 @@
 ## Code Conventions
 Android projects are Java projects, so they must follow the well-known code conventions for the Java programming languages. These are easily available online so look for them and apply them to the projects.
 
-In our projects we use an extension of Android Lint called [Lewis](https://github.com/inaka/lewis) to check some internal rules, for example:
+In our projects we use Android Lint with an extension called [Lewis](https://github.com/inaka/lewis) to check our code, Lewis adds rules like:
 * Every .java file must be inside a custom package, not inside the root package.
 * Every application must have at least one launcher activity.
 * Every application must have only one launcher activity.
@@ -25,13 +25,13 @@ Minimum of things that must not be uploaded for each Android project:
 /build 
 /captures
 ```
- In addition, be careful uploading .iml files, most of the time those files are not necessary.
+ In addition, be careful uploading `.iml` files, most of the time those files are not necessary.
 
 #### Code format and unused imports
-Always keep a correct code format (indentation, spaces, etc) and avoid unused imports using  Android Studio's shortcut Command+Option+L (in Mac).
+Always keep a correct code format (indentation, spaces, etc) and avoid unused imports using Android Studio's shortcut `Command+Option+L` (in Mac).
 
 #### File's header
-Delete default header, avoid use headers to indicate only the creator of the file and the date. Add a header only if you want to explain the purpose of that file or class.
+Delete default header, avoid use headers to indicate only the creator of the file and the date. Add a header only if you want to explain the `purpose` of that file/class.
 
 #### Documentation
 Use always JavaDoc and avoid warnings.
@@ -61,6 +61,6 @@ Use always JUnit, try to test most of algorithmic stuff and be careful testing U
 * Use JitPack.io to allow include it via gradle.
 [How to use JitPack.io](https://jitpack.io/docs/ANDROID/)
 
-Some libraries using JitPack.io: [TinyTask](https://github.com/inaka/TinyTask), [KillerTask](https://github.com/inaka/KillerTask).
+`Examples of libraries using JitPack.io: [TinyTask](https://github.com/inaka/TinyTask), [KillerTask](https://github.com/inaka/KillerTask).`
 
 
