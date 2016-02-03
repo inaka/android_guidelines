@@ -17,13 +17,14 @@ In our projects we use an extension of Android Lint called [Lewis](https://githu
 
 #### .gitignore file format
 Minimum of things that must not be uploaded for each Android project:
-    .gradle 
-    /local.properties 
-    /.idea/ 
-    .DS_Store 
-    /build 
-    /captures
-
+```txt
+.gradle 
+/local.properties 
+/.idea/ 
+.DS_Store 
+/build 
+/captures
+```
  In addition, be careful uploading .iml files, most of the time those files are not necessary.
 
 #### Code format and unused imports
@@ -59,6 +60,7 @@ Use always JUnit, try to test most of algorithmic stuff and be careful testing U
 * A project using it (could be inside the same repo or not but in a different module).
 * Use JitPack.io to allow include it via gradle.
 [How to use JitPack.io](https://jitpack.io/docs/ANDROID/)
-Library examples using JitPack.io: [TinyTask](https://github.com/inaka/TinyTask), [KillerTask](https://github.com/inaka/KillerTask).
+
+Some libraries using JitPack.io: [TinyTask](https://github.com/inaka/TinyTask), [KillerTask](https://github.com/inaka/KillerTask).
 
 
