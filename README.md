@@ -26,7 +26,7 @@ Minimum of things that must not be uploaded for each Android project:
 /build 
 /captures
 ```
- In addition, be careful uploading `.iml` files, most of the time those files are not necessary.
+ In addition, be careful uploading `.iml` files, at most projects those files are not necessary and should be added to the .gitignore.
 
 
 #### Code format and unused imports
