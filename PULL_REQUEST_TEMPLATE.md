@@ -1,6 +1,6 @@
 Before merging this PR, go over this checklist:
-- [ ] The issue was approved by a considerable number of votes
-- [ ] The rule text respects the structure:
+- [ ] The change was approved by a considerable number of votes
+- [ ] The text has:
     - [ ] Title
     - [ ] Short Description
-    - [ ] Examples (recommended)
+    - [ ] Examples (optional)
