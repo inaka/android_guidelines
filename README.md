@@ -12,6 +12,8 @@ In our projects we use Android Lint with an extension called [Lewis](https://git
 * Every library must not use permissions.
 * Every instance variable must be named beginning with 'm' and using camelCase (Exceptions: model classes, dependecies injection).
 * Every class constant (static and final) must be named using UPPER_SNAKE_CASE.
+* A string cannot be hardcoded inside layouts or menus. Now this is and error, not a warning.
+* Every id inside layouts or menus must be named using lowerCamelCase.
 
 
 ## Other rules and recommendations
